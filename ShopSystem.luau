@@ -343,7 +343,7 @@ local productsConfig: ProductsConfigType = {
 			local characterMutation1: MutationEnum.EnumType = "Normal"
 			local characterTrait1: TraitsEnum.EnumType = "Traitless"
 
-			local characterInfo1 = Characters[characterName]
+			local characterInfo1 = Characters[characterName1]
 			local characterRarity1 = characterInfo1.Rarity
 
 			PlayerDataService.SaveCollectedCharacter(
